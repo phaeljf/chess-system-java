@@ -1,6 +1,6 @@
 package boardgame;
 
-import boardgame.exception.BoadrException;
+import boardgame.exceptions.BoadrException;
 
 public class Board {
 
@@ -56,8 +56,5 @@ public class Board {
         }
         return piece(position) != null;
     }
-
-
-
 
 }
